@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 
-<body class="text-white">
+<body class="text-white overflow-hidden">
     <div class="w-full h-screen bg-[#18171c] flex">
         <div class="w-1/2 h-full flex items-center justify-center">
             <img src="/Images/training-at-home-animate (2).svg" alt="imagem animada">
@@ -49,13 +49,13 @@
 
               <div class="w-full h-[1px] bg-[#3F3F47] my-[20px]"></div>
 
-              <div class="w-full flex h-[150px]">
+              <div id="container-resultado" class="w-full flex h-[150px] hidden">
                 <div class="w-[20%] h-full flex items-center justify-center flex-col">
-                  <p class="text-[50px] text-[#17A34A] font-[500]">20.81</p>
+                  <p id="resultado-imc" class="text-[50px] text-[#17A34A] font-[500]">0.0</p>
                   <p>Seu IMC</p>
                 </div>
                 <div class="w-[80%] h-full flex items-center justify-center text-center">
-                  <p class="">Você está no peso ideal!</p>
+                  <p id="resultado-texto">Digite seu peso e sua altura.</p>
                 </div>
               </div>
               <div class="w-full h-[1px] bg-[#3F3F47] my-[20px]"></div>
